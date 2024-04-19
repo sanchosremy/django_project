@@ -1,5 +1,5 @@
 """
-URL configuration for vote_test project.
+URL configuration for mysite project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -21,4 +21,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("polls/", include("polls.urls")),
 ]
-
